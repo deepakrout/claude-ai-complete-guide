@@ -1,0 +1,16 @@
+{
+  "name": "claude-ai-complete-guide",
+  "version": "1.0.0",
+  "description": "Code examples for the Claude AI Complete Developer Guide",
+  "type": "module",
+  "scripts": {
+    "hello": "node 01-basic-api/hello-claude.js",
+    "prompt-demo": "node 02-prompt-engineering/few-shot.js",
+    "chat": "node 03-multi-turn/conversation.js",
+    "tools": "node 04-tool-use/weather-tool.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0",
+    "dotenv": "^16.4.5"
+  }
+}
